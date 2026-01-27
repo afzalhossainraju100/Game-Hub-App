@@ -1,20 +1,55 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import icondownloads from "../../assets/icondownloads.png";
 import iconreview from "../../assets/iconreview.png";
 import iconratings from "../../assets/iconratings.png";
 import Chart from "../Chart/Chart.jsx";
 
 const AppDetails = () => {
+  const { id } = useParams();
+  const [app, setApp] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("/loadData.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const foundApp = data.find((item) => item.id === parseInt(id));
+        setApp(foundApp);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error loading app data:", error);
+        setLoading(false);
+      });
+  }, [id]);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <span className="loading loading-infinity loading-xl"></span>
+      </div>
+    );
+  }
+
+  if (!app) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <h1 className="text-2xl font-bold">App not found</h1>
+      </div>
+    );
+  }
+
   return (
     <div className="w-[90%] mt-10 mx-auto">
       <div className="flex flex-col gap-6 sm:flex-row mb-10">
-        <img src="../../assets/demoapp1.webp" alt="" />
+        <img src={app.image} alt={app.title} className="rounded-lg" />
         <div className="space-y-4 flex flex-col items-start justify-start">
           <h1 className="text-[#001931]  font-bold text-[32px] leading-[39px] tracking-normal text-left capitalize">
-            SmPlan:ToDo List with Reminder
+            {app.companyName}: {app.title}
           </h1>
           <p className="font-bold text-xl leading-8 tracking-normal text-left">
-            Developed by <span></span>
+            Developed by <span>{app.companyName}</span>
           </p>
           <hr className="w-full border-t border-t-[#001931]/20" />
           <div className="flex flex-col gap-20 sm:flex-row justify-self-start mt-10 mb-10">
@@ -24,7 +59,7 @@ const AppDetails = () => {
                 Downloads
               </p>
               <h1 className="font-extrabold text-[40px] leading-[40px] tracking-normal text-left capitalize">
-                8M
+                {app.downloads}
               </h1>
             </div>
             <div className="flex flex-col items-left space-y-2 justify-center">
@@ -33,7 +68,7 @@ const AppDetails = () => {
                 Rating
               </p>
               <h1 className="font-extrabold text-[40px] leading-[40px] tracking-normal text-left capitalize">
-                4.5
+                {app.ratingAvg}
               </h1>
             </div>
             <div className="flex flex-col items-left space-y-2 justify-center">
@@ -42,12 +77,12 @@ const AppDetails = () => {
                 Reviews
               </p>
               <h1 className="font-extrabold text-[40px] leading-[40px] tracking-normal text-left capitalize">
-                4.2K
+                {app.reviews}
               </h1>
             </div>
           </div>
           <button className=" px-5 py-3 rounded bg-[rgba(0,211,144,1)] text-[#ffffff]">
-            Install Now (291 MB)
+            Install Now ({app.size} MB)
           </button>
         </div>
       </div>
@@ -59,33 +94,7 @@ const AppDetails = () => {
           <b>Description</b>
         </h1>
         <p className="text-[rgba(98,115,130,1)] text-xl font-normal leading-8 tracking-normal text-left">
-          This focus app takes the proven Pomodoro technique and makes it even
-          more practical for modern lifestyles. Instead of just setting a timer,
-          it builds a complete environment for deep work, minimizing
-          distractions and maximizing concentration. Users can create custom
-          work and break intervals, track how many sessions they complete each
-          day, and review detailed statistics about their focus habits over
-          time. The design is minimal and calming, reducing cognitive load so
-          you can focus entirely on the task at hand. Notifications gently let
-          you know when to pause and when to resume, helping you maintain a
-          healthy rhythm between work and rest. A unique feature of this app is
-          the integration of task lists with timers. You can assign each task to
-          a specific Pomodoro session, making your schedule more structured. The
-          built-in analytics show not only how much time you’ve worked but also
-          which tasks consumed the most energy. This allows you to reflect on
-          your efficiency and adjust your workflow accordingly. The app also
-          includes optional background sounds such as white noise, nature
-          sounds, or instrumental music to create a distraction-free atmosphere.
-          For people who struggle with procrastination, the app provides
-          motivational streaks and achievements. Completing multiple Pomodoro
-          sessions unlocks milestones, giving a sense of accomplishment. This
-          gamified approach makes focusing more engaging and less like a chore.
-          Whether you’re studying for exams, coding, writing, or handling office
-          work, the app adapts to your routine. By combining focus tracking,
-          task management, and motivational tools, this Pomodoro app ensures
-          that you not only work harder but also smarter. It is a personal
-          trainer for your brain, keeping you disciplined, refreshed, and
-          productive throughout the day.
+          {app.description}
         </p>
       </div>
     </div>

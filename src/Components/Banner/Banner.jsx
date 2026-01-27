@@ -17,7 +17,7 @@ const Banner = () => {
               Apps
             </h1>
             <p className="text-gray-700">
-              At HERO.IO, we craft innovative apps designed to make everyday
+              At GAME HUB, we craft innovative apps designed to make everyday
               life simpler, smarter, and more exciting.
               <br /> Our goal is to turn your ideas into digital experiences
               that truly make an impact.

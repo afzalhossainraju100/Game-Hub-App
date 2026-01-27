@@ -10,7 +10,7 @@ const Navbar = () => {
         <Link to="/">
           <li>Home</li>
         </Link>
-        <Link to="/apps">
+        <Link to="/allapps">
           <li>Apps</li>
         </Link>
         <Link to="/installation">
