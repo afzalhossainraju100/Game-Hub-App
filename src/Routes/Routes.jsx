@@ -6,7 +6,6 @@ import Home from "../Pages/Home/Home.jsx";
 import AllApps from "../Pages/AllApps/AllApps.jsx";
 import AppDetails from "../Pages/appDetails/AppDetails.jsx";
 
-
 export const router = createBrowserRouter([
   {
     path: "/",
