@@ -15,7 +15,7 @@ const Apps = ({ data }) => {
         </p>
       </div>
       <div>
-        <div>Apps Found (132)</div>
+        <div>Apps Found ({data.length})</div>
         <div></div>
       </div>
       <Suspense

@@ -13,7 +13,7 @@ const Footer = () => {
                 alt="Logo"
               />
               <a className="text-[#ffffff] font-bold text-base leading-[26px] tracking-normal text-left capitalize">
-                HERO.IO
+                Game Hub
               </a>
             </div>
             <div className="flex flex-col gap-6">

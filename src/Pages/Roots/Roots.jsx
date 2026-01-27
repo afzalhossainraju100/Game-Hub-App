@@ -4,13 +4,21 @@ import { Outlet } from "react-router-dom";
 import Footer from "../../Components/Footer/Footer";
 
 
+
 const Roots = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <div className="flex-grow">
+      <header>
+        <Navbar />
+        </header>
+        <section>
+        </section>
+      <main>
+         <div className="flex-grow">
         <Outlet></Outlet>
       </div>
+      </main>
+     
       <Footer></Footer>
     </div>
   );

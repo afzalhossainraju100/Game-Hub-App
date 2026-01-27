@@ -1,455 +1,477 @@
 [
   {
-    "image": "/assets/demoapp1.webp",
-    "title": "Task Manager Pro",
-    "companyName": "Productive Labs",
+    "image": "/src/assets/image1.jpeg",
+    "title": "Call of Duty",
+    "companyName": "Activision",
+    "category": "FPS",
     "id": 1,
-    "description": "Manage daily tasks efficiently with smart reminders.",
-    "size": 24,
-    "reviews": 1240,
-    "ratingAvg": 4.5,
-    "downloads": 85000,
-    "ratings": [
-      { "name": "1", "count": 40 },
-      { "name": "2", "count": 60 },
-      { "name": "3", "count": 180 },
-      { "name": "4", "count": 420 },
-      { "name": "5", "count": 540 }
-    ]
-  },
-  {
-    "image": "/assets/demoapp2.webp",
-    "title": "FitLife Tracker",
-    "companyName": "Healthify",
-    "id": 2,
-    "description": "Track workouts, calories, and health progress.",
-    "size": 32,
-    "reviews": 980,
-    "ratingAvg": 4.3,
-    "downloads": 62000,
+    "description": "Experience the pinnacle of modern warfare with Call of Duty. Engage in intense first-person shooter action across diverse multiplayer battlegrounds, featuring realistic weapons, strategic gameplay, and immersive campaign missions. Join millions of players worldwide in adrenaline-pumping battles, customize your loadouts, and master various game modes from Team Deathmatch to Search and Destroy. Whether you're a casual player or competitive warrior, Call of Duty delivers unmatched FPS excitement with stunning graphics and responsive controls.",
+    "size": 120,
+    "reviews": 2540,
+    "ratingAvg": 4.7,
+    "downloads": "5.2M",
     "ratings": [
       { "name": "1", "count": 30 },
       { "name": "2", "count": 50 },
-      { "name": "3", "count": 160 },
-      { "name": "4", "count": 360 },
-      { "name": "5", "count": 380 }
+      { "name": "3", "count": 150 },
+      { "name": "4", "count": 580 },
+      { "name": "5", "count": 1200 }
     ]
   },
   {
-    "image": "/assets/demoapp3.webp",
-    "title": "Budget Buddy",
-    "companyName": "FinTech Soft",
+    "image": "/src/assets/image2.jpeg",
+    "title": "PUBG Mobile",
+    "companyName": "Krafton",
+    "category": "Battle Royale",
+    "id": 2,
+    "description": "Drop into the ultimate battle royale experience where 100 players compete for survival on massive, dynamic maps. PUBG Mobile combines tactical gameplay with intense action as you scavenge for weapons, vehicles, and equipment while staying inside the shrinking play zone. Team up with friends in squad mode, go solo, or partner up in duos. With regular updates bringing new maps, weapons, and game modes, PUBG Mobile offers endless replayability and competitive thrills that will keep you on the edge of your seat.",
+    "size": 95,
+    "reviews": 3120,
+    "ratingAvg": 4.6,
+    "downloads": "7.8M",
+    "ratings": [
+      { "name": "1", "count": 40 },
+      { "name": "2", "count": 70 },
+      { "name": "3", "count": 200 },
+      { "name": "4", "count": 680 },
+      { "name": "5", "count": 1430 }
+    ]
+  },
+  {
+    "image": "/src/assets/image3.png",
+    "title": "Phantom Liberty",
+    "companyName": "CD Projekt Red",
+    "category": "Action RPG",
     "id": 3,
-    "description": "Easy expense tracking and smart budgeting.",
-    "size": 18,
-    "reviews": 760,
-    "ratingAvg": 4.1,
-    "downloads": 47000,
+    "description": "Venture into the dark and dangerous world of Phantom Liberty, a cyberpunk masterpiece that pushes the boundaries of interactive storytelling. Navigate through neon-lit streets filled with corporate intrigue, advanced technology, and moral dilemmas that will challenge your every decision. The mind-bending narrative weaves through a dystopian future where augmented reality meets harsh reality, featuring incredible visuals powered by cutting-edge graphics technology. Every choice you make shapes the outcome of your journey in this unforgettable action RPG experience.",
+    "size": 140,
+    "reviews": 2890,
+    "ratingAvg": 4.8,
+    "downloads": "4.5M",
+    "ratings": [
+      { "name": "1", "count": 20 },
+      { "name": "2", "count": 40 },
+      { "name": "3", "count": 120 },
+      { "name": "4", "count": 520 },
+      { "name": "5", "count": 2090 }
+    ]
+  },
+  {
+    "image": "/src/assets/image4.jpeg",
+    "title": "Persona 5 The Royal",
+    "companyName": "Atlus",
+    "category": "JRPG",
+    "id": 4,
+    "description": "Step into the shoes of a high school student by day and a Phantom Thief by night in Persona 5 The Royal. This definitive edition of the critically acclaimed JRPG features an expanded story, new characters, and enhanced gameplay mechanics. Experience stylish turn-based combat with a unique Persona system, forge meaningful relationships with unforgettable characters, and explore the depths of human psychology in the Metaverse. With over 100 hours of content including new palace dungeons, social activities, and a jazz-filled soundtrack, this is the ultimate Persona experience.",
+    "size": 110,
+    "reviews": 2650,
+    "ratingAvg": 4.9,
+    "downloads": "3.2M",
+    "ratings": [
+      { "name": "1", "count": 15 },
+      { "name": "2", "count": 30 },
+      { "name": "3", "count": 100 },
+      { "name": "4", "count": 450 },
+      { "name": "5", "count": 2055 }
+    ]
+  },
+  {
+    "image": "/src/assets/image5.jpeg",
+    "title": "Raju The Wild Fighter",
+    "companyName": "G. Games",
+    "category": "Fighting Game",
+    "id": 5,
+    "description": "Master the art of combat in Wild Fighter Raju, an electrifying martial arts fighting game that brings legendary fighters together in epic showdowns. Execute devastating combos with precise timing, unlock powerful special moves, and chain together attacks that will leave your opponents stunned. The game features a robust roster of unique fighters, each with their own fighting style, backstory, and signature techniques. Compete in tournaments, conquer story mode, or challenge friends in local and online multiplayer battles. With responsive controls and fluid animations, Wild Fighter Raju delivers authentic fighting game action.",
+    "size": 85,
+    "reviews": 1650,
+    "ratingAvg": 4.6,
+    "downloads": "2.4M",
+    "ratings": [
+      { "name": "1", "count": 30 },
+      { "name": "2", "count": 48 },
+      { "name": "3", "count": 165 },
+      { "name": "4", "count": 520 },
+      { "name": "5", "count": 887 }
+    ]
+  },
+  {
+    "image": "/src/assets/image6.jpeg",
+    "title": "Borderlands 3",
+    "companyName": "2K Games",
+    "category": "Action RPG",
+    "id": 6,
+    "description": "Welcome to the mayhem of Borderlands 3, where billions of guns meet outrageous humor in the ultimate looter-shooter experience. Explore diverse planets, each with unique environments, enemies, and treasures waiting to be discovered. Choose from four unique Vault Hunters, each with customizable skill trees and play styles. The game's signature procedurally generated weapon system ensures no two guns are alike, offering endless variety in your arsenal. Team up with friends in co-op mode, tackle challenging raid bosses, and immerse yourself in a story filled with memorable characters, witty dialogue, and explosive action.",
+    "size": 135,
+    "reviews": 2410,
+    "ratingAvg": 4.5,
+    "downloads": "4.1M",
+    "ratings": [
+      { "name": "1", "count": 35 },
+      { "name": "2", "count": 65 },
+      { "name": "3", "count": 210 },
+      { "name": "4", "count": 520 },
+      { "name": "5", "count": 1080 }
+    ]
+  },
+  {
+    "image": "/src/assets/image7.webp",
+    "title": "Couture Creation App",
+    "companyName": "Couture Studios",
+    "category": "Fashion & Design",
+    "id": 7,
+    "description": "Unleash your inner fashion designer with Couture Creation App, the ultimate platform for aspiring and professional designers alike. Access a comprehensive suite of professional design tools including fabric selection, pattern making, color palettes, and 3D visualization. Create stunning fashion collections from casual wear to haute couture, experiment with different materials and textures, and bring your creative visions to life. Share your designs with a global community, participate in design challenges, and even see your creations come to life with integrated manufacturing partnerships. Whether you're sketching your first design or launching your fashion empire, Couture Creation App provides everything you need.",
+    "size": 65,
+    "reviews": 890,
+    "ratingAvg": 4.3,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1", "count": 30 },
+      { "name": "2", "count": 50 },
+      { "name": "3", "count": 150 },
+      { "name": "4", "count": 320 },
+      { "name": "5", "count": 440 }
+    ]
+  },
+  {
+    "image": "/src/assets/image8.jpeg",
+    "title": "Titan Quest",
+    "companyName": "Titan Games",
+    "category": "Action RPG",
+    "id": 8,
+    "description": "Journey through ancient civilizations in Titan Quest, an action RPG masterpiece that brings Greek, Egyptian, and Oriental mythology to life. Battle legendary creatures, explore historically rich environments, and uncover the secrets of the ancient world. The game features a deep character customization system with dual mastery classes, allowing you to combine skills for unique build possibilities. Loot countless weapons, armor, and artifacts as you traverse from the Parthenon to the Great Wall of China. With both solo and multiplayer modes, expansive skill trees, and challenging boss encounters, Titan Quest offers hundreds of hours of mythological adventure.",
+    "size": 125,
+    "reviews": 2140,
+    "ratingAvg": 4.6,
+    "downloads": "3.9M",
     "ratings": [
       { "name": "1", "count": 25 },
       { "name": "2", "count": 55 },
       { "name": "3", "count": 170 },
-      { "name": "4", "count": 280 },
-      { "name": "5", "count": 230 }
+      { "name": "4", "count": 480 },
+      { "name": "5", "count": 1010 }
     ]
   },
   {
-    "image": "/assets/demoapp4.webp",
-    "title": "Learn JS Fast",
-    "companyName": "Code Academy",
-    "id": 4,
-    "description": "Interactive JavaScript learning platform.",
-    "size": 40,
-    "reviews": 1540,
-    "ratingAvg": 4.7,
-    "downloads": "1.5M",
-    "ratings": [
-      { "name": "1", "count": 20 },
-      { "name": "2", "count": 35 },
-      { "name": "3", "count": 120 },
-      { "name": "4", "count": 420 },
-      { "name": "5", "count": 945 }
-    ]
-  },
-  {
-    "image": "/assets/demoapp5.webp",
-    "title": "WeatherNow",
-    "companyName": "SkyTech",
-    "id": 5,
-    "description": "Real-time weather forecasts with alerts.",
-    "size": 15,
-    "reviews": 630,
-    "ratingAvg": 4.0,
-    "downloads": 39000,
-    "ratings": [
-      { "name": "1", "count": 35 },
-      { "name": "2", "count": 60 },
-      { "name": "3", "count": 190 },
-      { "name": "4", "count": 210 },
-      { "name": "5", "count": 135 }
-    ]
-  },
-  {
-    "image": "/assets/demoapp6.webp",
-    "title": "Note Keeper",
-    "companyName": "QuickSoft",
-    "id": 6,
-    "description": "Save and organize your notes securely.",
-    "size": 22,
-    "reviews": 540,
-    "ratingAvg": 4.2,
-    "downloads": 42000,
-    "ratings": [
-      { "name": "1", "count": 22 },
-      { "name": "2", "count": 42 },
-      { "name": "3", "count": 122 },
-      { "name": "4", "count": 212 },
-      { "name": "5", "count": 302 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/107/300/300",
-    "title": "Expense Mate",
-    "companyName": "MoneyTech",
-    "id": 7,
-    "description": "Monitor your daily expenses effortlessly.",
-    "size": 25,
-    "reviews": 610,
-    "ratingAvg": 4.3,
-    "downloads": 48000,
-    "ratings": [
-      { "name": "1", "count": 24 },
-      { "name": "2", "count": 44 },
-      { "name": "3", "count": 124 },
-      { "name": "4", "count": 224 },
-      { "name": "5", "count": 334 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/108/300/300",
-    "title": "Daily Planner",
+    "image": "/src/assets/image9.webp",
+    "title": "Daily Planner Pro",
     "companyName": "LifeTools",
-    "id": 8,
-    "description": "Plan your day with focus and clarity.",
-    "size": 21,
-    "reviews": 720,
-    "ratingAvg": 4.4,
-    "downloads": 55000,
-    "ratings": [
-      { "name": "1", "count": 26 },
-      { "name": "2", "count": 46 },
-      { "name": "3", "count": 126 },
-      { "name": "4", "count": 236 },
-      { "name": "5", "count": 356 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/109/300/300",
-    "title": "Photo Editor X",
-    "companyName": "PixelWorks",
+    "category": "Productivity",
     "id": 9,
-    "description": "Enhance photos with professional tools.",
-    "size": 45,
-    "reviews": 890,
-    "ratingAvg": 4.6,
-    "downloads": 78000,
-    "ratings": [
-      { "name": "1", "count": 18 },
-      { "name": "2", "count": 32 },
-      { "name": "3", "count": 108 },
-      { "name": "4", "count": 312 },
-      { "name": "5", "count": 420 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/110/300/300",
-    "title": "Music Stream",
-    "companyName": "SoundWave",
-    "id": 10,
-    "description": "Stream millions of songs ad-free.",
-    "size": 38,
-    "reviews": 1320,
-    "ratingAvg": 4.5,
-    "downloads": 99000,
+    "description": "Transform your daily routine with Daily Planner Pro, the intelligent productivity companion that helps you achieve more while maintaining work-life balance. Features include smart scheduling with AI-powered time optimization, customizable task lists with priority levels, habit tracking, and goal setting tools. The app seamlessly integrates with your calendar, provides insightful analytics on your productivity patterns, and sends timely reminders to keep you on track. With beautiful themes, cloud synchronization across devices, and collaboration features for team projects, Daily Planner Pro is more than just a planner—it's your personal productivity coach guiding you toward success.",
+    "size": 35,
+    "reviews": 1050,
+    "ratingAvg": 4.4,
+    "downloads": "2.1M",
     "ratings": [
       { "name": "1", "count": 28 },
       { "name": "2", "count": 48 },
-      { "name": "3", "count": 148 },
-      { "name": "4", "count": 398 },
+      { "name": "3", "count": 140 },
+      { "name": "4", "count": 360 },
+      { "name": "5", "count": 574 }
+    ]
+  },
+  {
+    "image": "/src/assets/image10.webp",
+    "title": "Happy UI",
+    "companyName": "Happy Labs",
+    "category": "Social & Chat",
+    "id": 10,
+    "description": "Stay connected with Happy UI, the social messaging app that prioritizes user experience and meaningful connections. Enjoy seamless conversations with an elegantly designed interface that makes chatting a pleasure. Features include high-quality voice and video calls, group chats with up to 200 participants, customizable themes and chat bubbles, and rich media sharing including photos, videos, and documents. Advanced privacy controls let you manage who sees your information, while end-to-end encryption ensures your conversations remain secure. With fun stickers, GIF support, and status updates, Happy UI makes staying in touch with friends and family more enjoyable than ever.",
+    "size": 52,
+    "reviews": 1420,
+    "ratingAvg": 4.5,
+    "downloads": "2.8M",
+    "ratings": [
+      { "name": "1", "count": 32 },
+      { "name": "2", "count": 58 },
+      { "name": "3", "count": 160 },
+      { "name": "4", "count": 420 },
+      { "name": "5", "count": 750 }
+    ]
+  },
+  {
+    "image": "/src/assets/image11.png",
+    "title": "Black Myth Wukong",
+    "companyName": "NetEase",
+    "category": "Action Adventure",
+    "id": 11,
+    "description": "Experience the legend of the Monkey King in Black Myth Wukong, a visually breathtaking action adventure rooted in the classic Chinese novel Journey to the West. Engage in fluid, souls-like combat against mythological creatures and deities, mastering transformation abilities and powerful magic spells. The game showcases stunning Unreal Engine 5 graphics with meticulously detailed environments ranging from misty mountains to ancient temples. Each boss encounter tells a story from Chinese folklore, challenging you to adapt your combat strategies. With its deep combo system, multiple weapon types, and shape-shifting abilities, Black Myth Wukong delivers an epic tale of redemption and power.",
+    "size": 145,
+    "reviews": 2780,
+    "ratingAvg": 4.8,
+    "downloads": "5.6M",
+    "ratings": [
+      { "name": "1", "count": 22 },
+      { "name": "2", "count": 45 },
+      { "name": "3", "count": 130 },
+      { "name": "4", "count": 580 },
+      { "name": "5", "count": 1801 }
+    ]
+  },
+  {
+    "image": "/src/assets/image12.webp",
+    "title": "Couture Designer",
+    "companyName": "Fashion Forge",
+    "category": "Fashion & Design",
+    "id": 12,
+    "description": "Build your fashion empire with Couture Designer, the premier app for creative minds passionate about style and design. From initial sketches to final runway presentations, every tool you need is at your fingertips. Access thousands of fabric swatches, design templates, and customization options to create one-of-a-kind pieces. Participate in global fashion competitions, collaborate with other designers, and get feedback from the community. The app features AR try-on technology, allowing you to visualize your designs in real-world settings. Track trends, build your brand identity, and even connect with manufacturers to bring your designs from concept to reality in the fashion marketplace.",
+    "size": 68,
+    "reviews": 920,
+    "ratingAvg": 4.2,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1", "count": 35 },
+      { "name": "2", "count": 55 },
+      { "name": "3", "count": 160 },
+      { "name": "4", "count": 310 },
+      { "name": "5", "count": 360 }
+    ]
+  },
+  {
+    "image": "/src/assets/image13.jpeg",
+    "title": "Red Dead Redemption II",
+    "companyName": "Rockstar Games",
+    "category": "Action Adventure",
+    "id": 13,
+    "description": "Ride into the sunset of the Wild West in Red Dead Redemption II, Rockstar's masterpiece of open-world storytelling. Follow Arthur Morgan and the Van der Linde gang as they navigate the decline of the outlaw era in America's heartland. Every interaction matters in this living, breathing world where your choices affect your honor and relationships. Experience unprecedented attention to detail with realistic wildlife, dynamic weather, and countless activities from poker to hunting. The game offers a gripping 60+ hour story campaign, endless exploration opportunities, and a rich multiplayer mode. With its emotional narrative, stunning visuals, and immersive gameplay, Red Dead Redemption II sets a new standard for open-world games.",
+    "size": 150,
+    "reviews": 3200,
+    "ratingAvg": 4.9,
+    "downloads": "6.3M",
+    "ratings": [
+      { "name": "1", "count": 18 },
+      { "name": "2", "count": 35 },
+      { "name": "3", "count": 110 },
+      { "name": "4", "count": 640 },
+      { "name": "5", "count": 2397 }
+    ]
+  },
+  {
+    "image": "/src/assets/image14.webp",
+    "title": "Tree Simulator",
+    "companyName": "Nature Games",
+    "category": "Casual Puzzle",
+    "id": 14,
+    "description": "Find peace and tranquility in Tree Simulator, a unique puzzle game that combines relaxation with strategy as you cultivate and nurture virtual forests. Plant seeds, water your saplings, and watch them grow into magnificent trees through the changing seasons. Each tree species has unique growth patterns and requirements, challenging you to create harmonious ecosystems. The game features beautiful hand-drawn art, calming ambient soundscapes, and meditative gameplay perfect for unwinding after a long day. Unlock rare tree species, design picturesque landscapes, and learn about real-world botany through engaging educational content. Tree Simulator proves that gaming can be both peaceful and rewarding.",
+    "size": 42,
+    "reviews": 720,
+    "ratingAvg": 4.1,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1", "count": 40 },
+      { "name": "2", "count": 65 },
+      { "name": "3", "count": 180 },
+      { "name": "4", "count": 250 },
+      { "name": "5", "count": 185 }
+    ]
+  },
+  {
+    "image": "/src/assets/image15.png",
+    "title": "Game of Anime",
+    "companyName": "Anime Studios",
+    "category": "Adventure RPG",
+    "id": 15,
+    "description": "Enter a vast anime universe in Game of Anime, where epic storytelling meets dynamic action RPG gameplay. Create your custom character and embark on a journey through beautifully animated worlds inspired by classic anime aesthetics. The combat system blends real-time action with strategic ability management, allowing you to chain together devastating combo attacks and ultimate moves. Explore rich lore through branching story paths, recruit powerful allies, and face formidable enemies in challenging boss battles. With stunning cel-shaded graphics, an emotional soundtrack, and hundreds of collectible characters to unlock, Game of Anime delivers an authentic anime experience that fans have been dreaming of.",
+    "size": 118,
+    "reviews": 2150,
+    "ratingAvg": 4.7,
+    "downloads": "4.2M",
+    "ratings": [
+      { "name": "1", "count": 28 },
+      { "name": "2", "count": 52 },
+      { "name": "3", "count": 155 },
+      { "name": "4", "count": 510 },
+      { "name": "5", "count": 1005 }
+    ]
+  },
+  {
+    "image": "/src/assets/image16.jpeg",
+    "title": "The King of Fighters XV",
+    "companyName": "SNK",
+    "category": "Fighting Game",
+    "id": 16,
+    "description": "Step into the ring with The King of Fighters XV, the latest installment in SNK's legendary fighting game franchise. Master the iconic 3v3 team battle system with an expanded roster of classic characters and exciting newcomers. Each fighter brings unique moves, combo potential, and team synergies to discover. The game features refined mechanics including the Shatter Strike system, new MAX Mode enhancements, and rollback netcode for smooth online competition. Whether you're practicing in training mode, competing in ranked matches, or enjoying the story mode that continues the KOF saga, this game delivers tournament-level fighting action with stunning graphics and balanced gameplay that honors the series' competitive legacy.",
+    "size": 88,
+    "reviews": 1680,
+    "ratingAvg": 4.6,
+    "downloads": "2.5M",
+    "ratings": [
+      { "name": "1", "count": 32 },
+      { "name": "2", "count": 48 },
+      { "name": "3", "count": 155 },
+      { "name": "4", "count": 425 },
       { "name": "5", "count": 698 }
     ]
   },
-
   {
-    "image": "https://picsum.photos/id/111/300/300",
-    "title": "Language Learner",
-    "companyName": "LinguaTech",
-    "id": 11,
-    "description": "Learn new languages interactively.",
-    "size": 34,
-    "reviews": 860,
-    "ratingAvg": 4.4,
-    "downloads": 68000,
-    "ratings": [
-      { "name": "1", "count": 21 },
-      { "name": "2", "count": 41 },
-      { "name": "3", "count": 131 },
-      { "name": "4", "count": 261 },
-      { "name": "5", "count": 406 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/112/300/300",
-    "title": "Meditation Now",
-    "companyName": "Mindful Inc",
-    "id": 12,
-    "description": "Relax and reduce stress with guided sessions.",
-    "size": 29,
-    "reviews": 740,
-    "ratingAvg": 4.6,
-    "downloads": 59000,
-    "ratings": [
-      { "name": "1", "count": 19 },
-      { "name": "2", "count": 39 },
-      { "name": "3", "count": 119 },
-      { "name": "4", "count": 269 },
-      { "name": "5", "count": 394 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/113/300/300",
-    "title": "PDF Scanner",
-    "companyName": "DocuSoft",
-    "id": 13,
-    "description": "Scan and convert documents to PDF.",
-    "size": 27,
-    "reviews": 680,
-    "ratingAvg": 4.2,
-    "downloads": 53000,
+    "image": "/src/assets/image17.jpeg",
+    "title": "Palworld",
+    "companyName": "Pocket Pair",
+    "category": "Adventure",
+    "id": 17,
+    "description": "Discover a world where survival meets creature collection in Palworld, a revolutionary adventure that blends monster-catching mechanics with crafting and survival gameplay. Explore vast biomes filled with mysterious Pals—creatures that can be caught, trained, and utilized for combat, farming, or crafting assistance. Build your base with the help of your Pals, each contributing unique skills from mining to construction. The game features multiplayer co-op for up to 32 players, allowing you to trade Pals, tackle dungeons together, or engage in PvP battles. With its innovative gameplay loop combining beloved creature-collecting with deep survival mechanics, Palworld offers an experience unlike any other.",
+    "size": 105,
+    "reviews": 2420,
+    "ratingAvg": 4.7,
+    "downloads": "5.4M",
     "ratings": [
       { "name": "1", "count": 30 },
-      { "name": "2", "count": 50 },
-      { "name": "3", "count": 160 },
-      { "name": "4", "count": 360 },
-      { "name": "5", "count": 380 }
+      { "name": "2", "count": 60 },
+      { "name": "3", "count": 175 },
+      { "name": "4", "count": 520 },
+      { "name": "5", "count": 1135 }
     ]
   },
   {
-    "image": "https://picsum.photos/id/114/300/300",
-    "title": "Crypto Tracker",
-    "companyName": "BlockView",
-    "id": 14,
-    "description": "Track crypto prices in real time.",
-    "size": 31,
-    "reviews": 910,
-    "ratingAvg": 4.3,
-    "downloads": 71000,
-    "ratings": [
-      { "name": "1", "count": 24 },
-      { "name": "2", "count": 44 },
-      { "name": "3", "count": 124 },
-      { "name": "4", "count": 224 },
-      { "name": "5", "count": 334 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/115/300/300",
-    "title": "Shopping Deals",
-    "companyName": "DealZone",
-    "id": 15,
-    "description": "Find the best deals and discounts.",
-    "size": 26,
-    "reviews": 830,
-    "ratingAvg": 4.1,
-    "downloads": 64000,
+    "image": "/src/assets/image18.jpeg",
+    "title": "Grand Theft Auto V",
+    "companyName": "Rockstar Games",
+    "category": "Action Adventure",
+    "id": 18,
+    "description": "Enter the sprawling metropolis of Los Santos in Grand Theft Auto V, where three criminals' lives intersect in a story of heists, betrayal, and the American dream gone wrong. Switch between Michael, Franklin, and Trevor—each with unique abilities and personalities—as you pull off elaborate heists and navigate the criminal underworld. The game's massive open world is alive with activities: from street racing and skydiving to stock market manipulation and property investment. GTA Online expands the experience with continuous updates, bringing new missions, vehicles, and properties. With its satirical take on modern America, countless customization options, and genre-defining freedom, GTA V remains the gold standard for open-world action games.",
+    "size": 135,
+    "reviews": 3450,
+    "ratingAvg": 4.8,
+    "downloads": "8.2M",
     "ratings": [
       { "name": "1", "count": 25 },
-      { "name": "2", "count": 55 },
-      { "name": "3", "count": 170 },
-      { "name": "4", "count": 280 },
-      { "name": "5", "count": 230 }
+      { "name": "2", "count": 50 },
+      { "name": "3", "count": 140 },
+      { "name": "4", "count": 650 },
+      { "name": "5", "count": 1985 }
     ]
   },
-
   {
-    "image": "https://picsum.photos/id/116/300/300",
-    "title": "Travel Guide",
-    "companyName": "Wanderly",
-    "id": 16,
-    "description": "Plan trips with expert recommendations.",
-    "size": 36,
-    "reviews": 940,
+    "image": "/src/assets/image19.png",
+    "title": "The King Raju",
+    "companyName": "Raju Productions",
+    "category": "Action Adventure",
+    "id": 19,
+    "description": "Embark on a legendary journey in The King Raju, an epic action adventure that tells the story of a hero's rise to greatness. Battle through diverse kingdoms, each with unique environments, enemies, and challenges that test your combat skills and strategic thinking. The game features a deep combat system with multiple weapon types, magical abilities, and combo chains that reward skillful play. Explore ancient ruins, solve environmental puzzles, and uncover the secrets of a rich fantasy world steeped in lore. With stunning boss battles, character progression systems, and a compelling narrative about honor and destiny, The King Raju delivers an unforgettable heroic adventure filled with memorable moments and legendary encounters.",
+    "size": 98,
+    "reviews": 1540,
     "ratingAvg": 4.5,
-    "downloads": 76000,
+    "downloads": "2.3M",
     "ratings": [
-      { "name": "1", "count": 26 },
-      { "name": "2", "count": 46 },
-      { "name": "3", "count": 126 },
-      { "name": "4", "count": 236 },
-      { "name": "5", "count": 356 }
+      { "name": "1", "count": 35 },
+      { "name": "2", "count": 62 },
+      { "name": "3", "count": 185 },
+      { "name": "4", "count": 410 },
+      { "name": "5", "count": 448 }
     ]
   },
   {
-    "image": "https://picsum.photos/id/117/300/300",
-    "title": "Smart Calculator",
-    "companyName": "CalcTech",
-    "id": 17,
-    "description": "Advanced calculator with smart features.",
-    "size": 14,
-    "reviews": 510,
-    "ratingAvg": 4.0,
-    "downloads": 38000,
+    "image": "/src/assets/image20.jpeg",
+    "title": "Baldur's Gate III",
+    "companyName": "Larian Studios",
+    "category": "RPG",
+    "id": 20,
+    "description": "Gather your party and venture forth in Baldur's Gate III, the critically acclaimed RPG that sets a new benchmark for the genre. Built on Dungeons & Dragons 5th Edition rules, every dice roll and decision shapes your unique story across multiple acts. Create deeply customized characters from 12 classes and 11 races, each offering distinct gameplay styles and narrative paths. The game features unprecedented freedom in approach: talk your way out of conflicts, use the environment tactically, or engage in strategic turn-based combat. Romance companions, navigate complex moral dilemmas, and experience a story that reacts meaningfully to your choices. With its cinematic presentation, engaging multiplayer, and hundreds of hours of content, Baldur's Gate III is a masterclass in RPG design.",
+    "size": 155,
+    "reviews": 2890,
+    "ratingAvg": 4.9,
+    "downloads": "4.8M",
     "ratings": [
       { "name": "1", "count": 20 },
-      { "name": "2", "count": 35 },
-      { "name": "3", "count": 120 },
-      { "name": "4", "count": 420 },
-      { "name": "5", "count": 945 }
+      { "name": "2", "count": 38 },
+      { "name": "3", "count": 125 },
+      { "name": "4", "count": 580 },
+      { "name": "5", "count": 2027 }
     ]
   },
   {
-    "image": "https://picsum.photos/id/118/300/300",
-    "title": "Video Editor",
-    "companyName": "MotionLab",
-    "id": 18,
-    "description": "Edit videos with cinematic effects.",
-    "size": 52,
-    "reviews": 1210,
-    "ratingAvg": 4.6,
-    "downloads": 98000,
-    "ratings": [
-      { "name": "1", "count": 28 },
-      { "name": "2", "count": 48 },
-      { "name": "3", "count": 128 },
-      { "name": "4", "count": 248 },
-      { "name": "5", "count": 368 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/119/300/300",
-    "title": "Password Vault",
-    "companyName": "SecureX",
-    "id": 19,
-    "description": "Store passwords securely with encryption.",
-    "size": 28,
-    "reviews": 870,
-    "ratingAvg": 4.4,
-    "downloads": 69000,
-    "ratings": [
-      { "name": "1", "count": 32 },
-      { "name": "2", "count": 52 },
-      { "name": "3", "count": 132 },
-      { "name": "4", "count": 252 },
-      { "name": "5", "count": 372 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/120/300/300",
-    "title": "Online Classes",
-    "companyName": "EduLive",
-    "id": 20,
-    "description": "Attend live classes from anywhere.",
-    "size": 41,
-    "reviews": 1100,
-    "ratingAvg": 4.5,
-    "downloads": 88000,
-    "ratings": [
-      { "name": "1", "count": 22 },
-      { "name": "2", "count": 42 },
-      { "name": "3", "count": 122 },
-      { "name": "4", "count": 212 },
-      { "name": "5", "count": 302 }
-    ]
-  },
-
-  {
-    "image": "https://picsum.photos/id/121/300/300",
-    "title": "AI Chat Bot",
-    "companyName": "NeuroSoft",
+    "image": "/src/assets/image21.jpeg",
+    "title": "Among Us",
+    "companyName": "Innersloth",
+    "category": "Party Puzzle",
     "id": 21,
-    "description": "Chat with an intelligent AI assistant.",
-    "size": 33,
-    "reviews": 1350,
-    "ratingAvg": 4.7,
-    "downloads": 125000,
-    "ratings": [
-      { "name": "1", "count": 36 },
-      { "name": "2", "count": 56 },
-      { "name": "3", "count": 136 },
-      { "name": "4", "count": 256 },
-      { "name": "5", "count": 376 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/122/300/300",
-    "title": "Stock Monitor",
-    "companyName": "MarketEye",
-    "id": 22,
-    "description": "Track stock prices and portfolios.",
-    "size": 35,
-    "reviews": 920,
+    "description": "Experience social deduction at its finest in Among Us, the viral sensation that brings friends together through trust, deception, and hilarious betrayals. Play as a Crewmate completing tasks around the spaceship, or become an Impostor secretly sabotaging the mission and eliminating crew members. Use the emergency meeting system to discuss suspicious behavior, present alibis, and vote out suspected impostors—but be careful, as innocent crewmates can be wrongly accused. The game supports 4-15 players across multiple maps, each with unique layouts and tasks. With regular updates adding new roles like Scientist and Guardian Angel, Along with customization options and cross-platform play, Among Us delivers endless entertainment whether you're playing with friends or strangers.",
+    "size": 38,
+    "reviews": 2100,
     "ratingAvg": 4.3,
-    "downloads": 74000,
+    "downloads": "3.5M",
     "ratings": [
-      { "name": "1", "count": 40 },
-      { "name": "2", "count": 60 },
-      { "name": "3", "count": 140 },
-      { "name": "4", "count": 260 },
-      { "name": "5", "count": 380 }
+      { "name": "1", "count": 50 },
+      { "name": "2", "count": 80 },
+      { "name": "3", "count": 240 },
+      { "name": "4", "count": 480 },
+      { "name": "5", "count": 850 }
     ]
   },
   {
-    "image": "https://picsum.photos/id/123/300/300",
-    "title": "Recipe Book",
-    "companyName": "Foodies",
-    "id": 23,
-    "description": "Discover and save delicious recipes.",
-    "size": 30,
-    "reviews": 780,
-    "ratingAvg": 4.4,
-    "downloads": 61000,
+    "image": "/src/assets/image22.jpeg",
+    "title": "Forza Horizon 5",
+    "companyName": "Turn 10 Studios",
+    "category": "Racing",
+    "id": 22,
+    "description": "Race through the vibrant landscapes of Mexico in Forza Horizon 5, the most ambitious open-world racing game ever created. Experience 11 distinct biomes from tropical jungles to ancient ruins, each rendered in photorealistic detail with dynamic weather systems and seasonal changes. Choose from over 500 cars including exotic supercars, classic muscle cars, and off-road vehicles, all featuring detailed customization and realistic physics. The game offers countless activities: participate in street races, complete stunt challenges, discover hidden barn finds, and compete in the Horizon Festival events. With its accessible gameplay for casual players, depth for racing enthusiasts, and seamless multiplayer integration, Forza Horizon 5 delivers automotive bliss in every race.",
+    "size": 140,
+    "reviews": 2560,
+    "ratingAvg": 4.8,
+    "downloads": "5.1M",
     "ratings": [
       { "name": "1", "count": 24 },
-      { "name": "2", "count": 44 },
-      { "name": "3", "count": 124 },
-      { "name": "4", "count": 254 },
-      { "name": "5", "count": 384 }
+      { "name": "2", "count": 46 },
+      { "name": "3", "count": 135 },
+      { "name": "4", "count": 590 },
+      { "name": "5", "count": 1365 }
     ]
   },
   {
-    "image": "https://picsum.photos/id/124/300/300",
-    "title": "File Manager",
-    "companyName": "StoragePro",
+    "image": "/src/assets/image23.jpeg",
+    "title": "One Man Army",
+    "companyName": "Army Studios",
+    "category": "Action Shooter",
+    "id": 23,
+    "description": "Prove your tactical prowess in One Man Army, an intense action shooter where you face overwhelming odds as a lone operative behind enemy lines. Plan your approach carefully, utilizing stealth, gadgets, and raw firepower to complete dangerous missions across diverse environments. The game features a robust loadout system allowing you to customize weapons, gear, and abilities to match your playstyle. Each mission presents multiple paths and strategies—go loud with heavy weapons, take the stealthy approach with silenced firearms, or use gadgets to outsmart enemies. With challenging AI, realistic ballistics, and satisfying gunplay, One Man Army tests your skills as you prove that sometimes, one soldier with the right skills can turn the tide of battle against an entire army.",
+    "size": 92,
+    "reviews": 1820,
+    "ratingAvg": 4.5,
+    "downloads": "2.9M",
+    "ratings": [
+      { "name": "1", "count": 38 },
+      { "name": "2", "count": 65 },
+      { "name": "3", "count": 195 },
+      { "name": "4", "count": 480 },
+      { "name": "5", "count": 644 }
+    ]
+  },
+  {
+    "image": "/src/assets/image24.jpeg",
+    "title": "Empires (Dynasty Warriors 9)",
+    "companyName": "Omega Force",
+    "category": "Action Strategy",
     "id": 24,
-    "description": "Manage files quickly and securely.",
-    "size": 19,
-    "reviews": 690,
-    "ratingAvg": 4.1,
-    "downloads": 54000,
+    "description": "Command legendary warriors in Empires (Dynasty Warriors 9), where tactical strategy meets explosive hack-and-slash action in ancient China. Experience the Three Kingdoms era through character-driven campaigns, each offering unique perspectives on historic battles. The game introduces an open-world approach to the series, allowing you to explore vast maps, capture strategic positions, and engage in massive battles with hundreds of on-screen enemies. Utilize each character's unique weapons and abilities, perform devastating musou attacks, and employ tactical stratagems to turn the tide of war. With empire-building elements, officer recruitment systems, and the signature over-the-top action the series is known for, Dynasty Warriors 9 delivers an epic blend of strategy and combat on an unprecedented scale.",
+    "size": 128,
+    "reviews": 1950,
+    "ratingAvg": 4.6,
+    "downloads": "3.7M",
     "ratings": [
       { "name": "1", "count": 32 },
-      { "name": "2", "count": 52 },
-      { "name": "3", "count": 152 },
-      { "name": "4", "count": 232 },
-      { "name": "5", "count": 222 }
+      { "name": "2", "count": 58 },
+      { "name": "3", "count": 175 },
+      { "name": "4", "count": 520 },
+      { "name": "5", "count": 865 }
     ]
   },
   {
-    "image": "https://picsum.photos/id/125/300/300",
-    "title": "QR Scanner",
-    "companyName": "ScanFast",
+    "image": "/src/assets/image25.jpeg",
+    "title": "Overcooked! 2",
+    "companyName": "Ghost Town Games",
+    "category": "Puzzle Cooking",
     "id": 25,
-    "description": "Fast and secure QR code scanning.",
-    "size": 12,
-    "reviews": 560,
-    "ratingAvg": 4.2,
-    "downloads": 46000,
+    "description": "Enter the kitchen with Overcooked! 2, the ultimate co-op cooking game that turns meal preparation into delightful chaos. Team up with up to three friends locally or online as you chop ingredients, cook dishes, wash plates, and serve orders under increasingly ridiculous circumstances. Navigate kitchens on hot air balloons, moving trucks, and even haunted houses, all while managing time pressure and communication challenges. The game features over 200 levels across story and additional modes, new recipes to master, and throwing mechanics that add a new layer of strategy. With accessible controls that anyone can learn but challenging gameplay that tests coordination and teamwork, Overcooked! 2 is perfect for game nights, creating memorable moments of triumph and hilarious disasters in equal measure.",
+    "size": 54,
+    "reviews": 1640,
+    "ratingAvg": 4.7,
+    "downloads": "2.6M",
     "ratings": [
-      { "name": "1", "count": 28 },
-      { "name": "2", "count": 48 },
-      { "name": "3", "count": 138 },
-      { "name": "4", "count": 198 },
-      { "name": "5", "count": 148 }
+      { "name": "1", "count": 26 },
+      { "name": "2", "count": 44 },
+      { "name": "3", "count": 145 },
+      { "name": "4", "count": 490 },
+      { "name": "5", "count": 735 }
     ]
   }
 ]
