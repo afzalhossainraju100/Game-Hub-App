@@ -12,7 +12,7 @@ const AppDetails = () => {
   if (Array.isArray(data)) {
     singleApp = data.find((app) => app.id === parseInt(id));
   }
-  console.log(singleApp);
+
 
   if (!singleApp) {
     return (
@@ -20,7 +20,7 @@ const AppDetails = () => {
         <h1 className="text-2xl font-bold">App not found</h1>
       </div>
     );
-  }console.log("");
+  }
 
   return (
     <div className="w-[90%] mx-auto my-10">
