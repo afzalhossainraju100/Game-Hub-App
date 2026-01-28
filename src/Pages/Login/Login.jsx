@@ -38,6 +38,9 @@ const Login = () => {
           errorMessage = "Invalid email address.";
         } else if (error.code === "auth/user-disabled") {
           errorMessage = "This user account has been disabled.";
+        } else if (error.code === "auth/operation-not-allowed") {
+          errorMessage =
+            "Email/Password authentication is not enabled. Please contact admin.";
         }
 
         setError(errorMessage);

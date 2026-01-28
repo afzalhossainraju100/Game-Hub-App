@@ -9,11 +9,13 @@ import {
 } from "firebase/auth";
 import { app } from "../Firebase/Firebase.config.js";
 
-export const AuthContext = createContext();
+// Create context
+const AuthContext = createContext();
 
 const auth = getAuth(app);
 
-export const AuthProvider = ({ children }) => {
+// Provider component
+const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -65,3 +67,5 @@ export const AuthProvider = ({ children }) => {
     <AuthContext.Provider value={authInfo}>{children}</AuthContext.Provider>
   );
 };
+
+export { AuthContext, AuthProvider };

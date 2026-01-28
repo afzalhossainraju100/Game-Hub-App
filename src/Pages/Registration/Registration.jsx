@@ -58,6 +58,9 @@ const Register = () => {
           errorMessage = "Password is too weak (at least 6 characters)";
         } else if (error.code === "auth/invalid-email") {
           errorMessage = "Invalid email address";
+        } else if (error.code === "auth/operation-not-allowed") {
+          errorMessage =
+            "Email/Password authentication is not enabled. Please contact admin.";
         }
 
         setRegisterError(errorMessage);
