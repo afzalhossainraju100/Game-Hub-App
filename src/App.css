@@ -1,0 +1,20 @@
+/* Marquee animation for Heightlight component */
+.animate-marquee {
+  display: inline-flex;
+  gap: 1.5rem;
+  animation: marquee-scroll 25s linear infinite;
+  will-change: transform;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* move left - loops back seamlessly */
+  }
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

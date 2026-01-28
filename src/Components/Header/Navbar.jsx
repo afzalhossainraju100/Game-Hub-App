@@ -13,8 +13,8 @@ const Navbar = () => {
         <Link to="/allapps">
           <li>Apps</li>
         </Link>
-        <Link to="/installation">
-          <li>Installation</li>
+        <Link to="/auth/login">
+          <li>Login</li>
         </Link>
       </>
     );
