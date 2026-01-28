@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../../assets/hero.png";
+import Hero from "../../assets/Hero.png";
 import GooglePlay from "../../assets/googlePlay.png";
 import AppStore from "../../assets/appStore.png";
 
@@ -38,10 +38,10 @@ const Banner = () => {
                 <button
                   type="button"
                   className="btn bg-[#d2d2d2] text-[#000000] border-0 shadow-sm hover:bg-[#bcbcbc]"
-              >
-                <img src={AppStore} alt="App Store" /> App Store
-              </button>
-             </a>
+                >
+                  <img src={AppStore} alt="App Store" /> App Store
+                </button>
+              </a>
             </div>
             <img src={Hero} alt="Hero" />
           </div>
